@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Page</title>
+    <style>
+        .heading {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            background-color: #001a69;
+            color: white;
+            padding: 20px 0;
+        }
+        
+        .nav {
+            text-align: center;
+            background-color: black;
+            font-style: normal;
+            padding: 10px 0;
+        }
+        
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .one,
+        .two,
+        .three,
+        .last {
+            width: 30%;
+            border-radius: 10px;
+            height: 300px;
+            vertical-align: top;
+            background-color: white;
+            padding: 10px;
+        }
+        
+        .last {
+            margin: 0 auto; /* Center the last fieldset */
+        }
+        
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        
+        button {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">Web Dev Co</div>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </div><br><br>
+    <div class="container">
+        <fieldset class="one">
+            <div style="text-align: center;">
+                <img src="html.png" alt="html">
+                <h3>HTML Course</h3>
+                <p>Dive into the exciting field of HTML and learn how to create web pages from scratch.</p>
+                <p>This course is beginner friendly and available in many languages.</p>
+                <button onclick="openNewTab1()">View Details</button>
+            </div>
+        </fieldset>
+        <fieldset class="two">
+            <div style="text-align: center;">
+                <img src="css.png" alt="html">
+                <h3>CSS Course</h3>
+                <p>Dive into the exciting field of CSS and learn how to style web pages from scratch.</p>
+                <p>This course is beginner friendly and available in many languages.</p>
+                <button onclick="openNewTab2()">View Details</button>
+            </div>
+        </fieldset>
+        <fieldset class="three">
+            <div style="text-align: center;">
+                <img src="js.png" alt="html">
+                <h3>JavaScript Course</h3>
+                <p>Dive into the exciting field of JavaScript and learn how to create web pages from scratch.</p>
+                <p>This course is beginner friendly and available in many languages.</p>
+                <button onclick="openNewTab3()">View Details</button>
+            </div>
+        </fieldset>
+    </div><br><br>
+
+    <div class="container">
+        <fieldset class="one">
+            <div style="text-align: center;">
+                <img src="react.png" alt="html">
+                <h3>React Course</h3>
+                <p>Dive into the exciting world of React and learn how to create interactive websites  using this powerful library.</p>
+                <p>This course is beginner friendly and available in many languages.</p>
+                <button onclick="openNewTab4()">View Details</button>
+            </div>
+        </fieldset>
+        <fieldset class="two">
+            <div style="text-align: center;">
+                <img src="front end.png" alt="html">
+                <h3>Front End Development Course</h3>
+                <p>Dive into the exciting field of front end development and learn how to create user-appealing websites</p>
+                <p>This course is beginner friendly and available in many languages.</p>
+                <button onclick="openNewTab5()">View Details</button>
+            </div>
+        </fieldset>
+        <fieldset class="three">
+            <div style="text-align: center;">
+                <img src="backend.png" alt="html">
+                <h3>Backend Development Course</h3>
+                <p>Dive into the exciting field of Backend Development and learn how do websites interact with the user</p>
+                <p>This course is beginner friendly and available in many languages.</p>
+                <button onclick="openNewTab6()">View Details</button>
+            </div>
+        </fieldset>
+    </div><br><br>
+    
+    <fieldset class="last">
+        <div style="text-align: center;">
+            <img src="fullstack.jpg" alt="html">
+            <h3>Full Stack Development</h3>
+            <p>Dive into the exciting world of Full stack development and learn how to create interactive and operational websites.</p>
+            <p>This course is beginner friendly and available in many languages.</p>
+            <button onclick="openNewTab7()">View Details</button>
+        </div>
+    </fieldset>
+    <script src="script.js">
+            
+    </script>
+
+    
+
+</body>
+</html>

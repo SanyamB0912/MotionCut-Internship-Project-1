@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product one page</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        color: #333;
+    }
+    
+    .heading {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        background-color: #001a69;
+        color: white;
+        padding: 20px 0;
+    }
+    
+    .nav {
+        text-align: center;
+        background-color: #333;
+        padding: 10px 0;
+    }
+    
+    .nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 18px;
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center horizontally */
+        flex-direction: column; /* Align items vertically */
+    }
+    
+    img {
+        width: 300px; /* Adjust as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 20px; /* Adjust spacing */
+    }
+    
+    p {
+        text-align: center; /* Center the text */
+        margin: 0; /* Remove default margins */
+    }
+    .currency{
+        width:40%;
+        text-align: center;
+    }
+    legend{
+        text-align: center;
+    }
+    button {
+            border-radius: 50%;
+            text-align: center;
+            margin: auto;
+            background-color: rgb(96, 93, 112);
+        }
+        .center-container {
+  display: flex;
+  justify-content: center;
+}
+
+</style>
+</head>
+<body>
+    <div class="heading"> 
+        Web Dev Co
+    </div>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="container">
+        <img src="html.png" alt="HTML Logo">
+        <p>Are you ready to embark on a journey into the world of web development? 
+            Our HTML course offers a comprehensive introduction to Hypertext Markup Language (HTML), 
+            the backbone of the internet. Whether you're a complete beginner or looking to refresh your skills, 
+            this course covers everything you need to know to create stunning and functional web pages. 
+            From structuring content with semantic elements to incorporating multimedia and forms, 
+            you'll gain hands-on experience through practical exercises and real-world projects. 
+            Join us and unlock the power to build responsive and accessible websites from scratch, 
+            setting the foundation for your future in web development. Start your coding adventure today with our HTML course!</p><br>
+
+
+            <label for="lang">Choose course language:</label>
+            <label for="lang">Choose course language:</label>
+            <select name="lang" id="lang">
+              <option value="eng">English</option>
+              <option value="hindi">Hindi</option>
+              <option value="telgu">Telgu</option>
+              <option value="mal">Malayalam</option>
+              <option value="tam">Tamil</option>
+              <option value="ger">German</option>
+              <option value="fre">French</option>
+              <option value="spa">Spanish</option>
+              </select>
+            <br>
+            <p>Course Price:INR 1000</p>
+            <br>
+            <fieldset class="currency">
+                <legend>Want to see the Course Price in your currency?</legend>
+
+                
+                <label for="numberInput">Enter the conversion rate of the currency  against INR:</label><br>
+    <input type="number" id="numberInput"><br>
+    <button onclick="calculateDivision()">Submit</button>
+
+    <p id="result"></p>
+
+
+            </fieldset><br>
+
+    </div>
+
+    <div class="center-container">
+        <button type="submit" onclick="buynow()">BUY NOW!</button>
+      </div>
+      
+    <script src="script.js">
+    </script>
+</body>
+</html>
